@@ -5,6 +5,7 @@
 
 .body__container {
   display: grid;
-  grid-template-columns: repeat(3, 20% auto 30%);
+  grid-template-columns: 20% 1fr 30%;
   gap: 2rem;
 }
+

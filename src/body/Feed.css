@@ -1,20 +1,53 @@
 .feed {
+ 
 }
 
 .feed__inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background: var(--color-white);
+  padding: 2rem;
+  border-radius: 1rem;
 }
 
 .feed__input {
-    display: flex;
+  display: flex;
+  gap: 1rem;
 }
 
 .feed__input-image {
-  height: 3rem;
+  height: 5rem;
   aspect-ratio: 1/1;
   border-radius: 50%;
 }
 
-.feed__input form{
-    display: flex;
+.feed__input form {
+  width: 100%;
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5rem;
+  padding: 1rem 2rem;
+  background: #ebebeb;
 }
 
+.feed__input form input {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.feed__input form input::placeholder {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.feed__input form button {
+  display: none;
+}
+
+.feed__inputOptions {
+  display: flex;
+  gap: 0.5rem;
+}

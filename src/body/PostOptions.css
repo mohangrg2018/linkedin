@@ -1,0 +1,15 @@
+.postOptions {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.postOptions__image {
+  font-size: 2rem;
+}
+
+.postOptions h2 {
+  color: var(--color-light);
+}
