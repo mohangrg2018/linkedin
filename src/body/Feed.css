@@ -1,0 +1,20 @@
+.feed {
+}
+
+.feed__inputContainer {
+}
+
+.feed__input {
+    display: flex;
+}
+
+.feed__input-image {
+  height: 3rem;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.feed__input form{
+    display: flex;
+}
+

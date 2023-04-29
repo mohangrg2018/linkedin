@@ -1,0 +1,10 @@
+.body {
+  background: var(--color-bg);
+  padding-top: 2.5rem;
+}
+
+.body__container {
+  display: grid;
+  grid-template-columns: repeat(3, 20% auto 30%);
+  gap: 2rem;
+}

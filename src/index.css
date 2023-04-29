@@ -1,0 +1,35 @@
+/* CSS VARIABLES */
+:root {
+  --color-primary: rgba(0, 0, 0, 0.9);
+  --color-light: rgba(0, 0, 0, 0.5);
+
+  --color-white: #fff;
+
+  --color-bg: #f3f2ef;
+
+  --container-width-lg: 70%;
+}
+
+/* CSS */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: var(--container-width-lg);
+  margin: 0 auto;
+}

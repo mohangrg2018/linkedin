@@ -1,0 +1,15 @@
+.group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.group__icon {
+  font-size: 2rem;
+  color: var(--color-light);
+}
+
+.group h2 {
+  font-size: 1.2rem;
+  color: var(--color-light);
+}
